@@ -1,0 +1,25 @@
+{
+  "name": "cmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node osrs-ge/ge-test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cloudscraper": "^1.4.1",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "pastebin-js": "^0.4.0",
+    "progress": "^2.0.0",
+    "promdash": "^1.2.0",
+    "prompt": "^1.0.0",
+    "twitter": "^1.7.1"
+  }
+}

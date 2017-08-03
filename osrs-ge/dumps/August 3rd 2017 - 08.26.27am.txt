@@ -1,0 +1,2492 @@
+[
+  {
+    "id": 3838,
+    "name": "Guthix page 4",
+    "totalBuying": 1,
+    "totalSelling": 1,
+    "buying": 25000,
+    "selling": 444444,
+    "margin": 419444,
+    "percent": 1677.776
+  },
+  {
+    "id": 11836,
+    "name": "Bandos boots",
+    "totalBuying": 3,
+    "totalSelling": 6,
+    "buying": 1007539,
+    "selling": 1221666,
+    "margin": 214127,
+    "percent": 21.2524775715878
+  },
+  {
+    "id": 21079,
+    "name": "Arcane prayer scroll",
+    "totalBuying": 6,
+    "totalSelling": 1,
+    "buying": 15317979,
+    "selling": 15516402,
+    "margin": 198423,
+    "percent": 1.2953601777362405
+  },
+  {
+    "id": 12526,
+    "name": "Fury ornament kit",
+    "totalBuying": 15,
+    "totalSelling": 8,
+    "buying": 2012301,
+    "selling": 2131030,
+    "margin": 118729,
+    "percent": 5.900161059404135
+  },
+  {
+    "id": 11286,
+    "name": "Draconic visage",
+    "totalBuying": 3,
+    "totalSelling": 3,
+    "buying": 8500000,
+    "selling": 8605665,
+    "margin": 105665,
+    "percent": 1.2431176470588234
+  },
+  {
+    "id": 12825,
+    "name": "Arcane spirit shield",
+    "totalBuying": 5,
+    "totalSelling": 7,
+    "buying": 87597042,
+    "selling": 87677144,
+    "margin": 80102,
+    "percent": 0.09144372706101195
+  },
+  {
+    "id": 6914,
+    "name": "Master wand",
+    "totalBuying": 20,
+    "totalSelling": 11,
+    "buying": 5167026,
+    "selling": 5245231,
+    "margin": 78205,
+    "percent": 1.5135398970316774
+  },
+  {
+    "id": 20050,
+    "name": "Obsidian cape (r)",
+    "totalBuying": 3,
+    "totalSelling": 7,
+    "buying": 3163333,
+    "selling": 3235143,
+    "margin": 71810,
+    "percent": 2.2700740010615386
+  },
+  {
+    "id": 12771,
+    "name": "Volcanic whip mix",
+    "totalBuying": 3,
+    "totalSelling": 5,
+    "buying": 267254,
+    "selling": 328198,
+    "margin": 60944,
+    "percent": 22.80377468625353
+  },
+  {
+    "id": 21028,
+    "name": "Dragon harpoon",
+    "totalBuying": 6,
+    "totalSelling": 3,
+    "buying": 8054680,
+    "selling": 8108419,
+    "margin": 53739,
+    "percent": 0.6671773428615414
+  },
+  {
+    "id": 2577,
+    "name": "Ranger boots",
+    "totalBuying": 10,
+    "totalSelling": 6,
+    "buying": 24644535,
+    "selling": 24684378,
+    "margin": 39843,
+    "percent": 0.16167073146237085
+  },
+  {
+    "id": 12601,
+    "name": "Ring of the gods",
+    "totalBuying": 2,
+    "totalSelling": 1,
+    "buying": 10943995,
+    "selling": 10979886,
+    "margin": 35891,
+    "percent": 0.3279515387205495
+  },
+  {
+    "id": 21003,
+    "name": "Elder maul",
+    "totalBuying": 8,
+    "totalSelling": 6,
+    "buying": 50811278,
+    "selling": 50838132,
+    "margin": 26854,
+    "percent": 0.05285047150359021
+  },
+  {
+    "id": 11284,
+    "name": "Dragonfire shield",
+    "totalBuying": 67,
+    "totalSelling": 41,
+    "buying": 8656524,
+    "selling": 8682632,
+    "margin": 26108,
+    "percent": 0.3015991176134901
+  },
+  {
+    "id": 13271,
+    "name": "Abyssal dagger (p++)",
+    "totalBuying": 18,
+    "totalSelling": 23,
+    "buying": 6770751,
+    "selling": 6795197,
+    "margin": 24446,
+    "percent": 0.36105300578916577
+  },
+  {
+    "id": 21301,
+    "name": "Obsidian platebody",
+    "totalBuying": 3,
+    "totalSelling": 10,
+    "buying": 1202000,
+    "selling": 1225993,
+    "margin": 23993,
+    "percent": 1.996089850249584
+  },
+  {
+    "id": 11828,
+    "name": "Armadyl chestplate",
+    "totalBuying": 16,
+    "totalSelling": 23,
+    "buying": 30976770,
+    "selling": 30997421,
+    "margin": 20651,
+    "percent": 0.06666608558606982
+  },
+  {
+    "id": 20065,
+    "name": "Occult ornament kit",
+    "totalBuying": 5,
+    "totalSelling": 3,
+    "buying": 5811045,
+    "selling": 5831409,
+    "margin": 20364,
+    "percent": 0.3504361091679724
+  },
+  {
+    "id": 11200,
+    "name": "Dwarven helmet",
+    "totalBuying": 20,
+    "totalSelling": 10,
+    "buying": 38107,
+    "selling": 57610,
+    "margin": 19503,
+    "percent": 51.179573306741545
+  },
+  {
+    "id": 21021,
+    "name": "Ancestral robe top",
+    "totalBuying": 4,
+    "totalSelling": 4,
+    "buying": 89439555,
+    "selling": 89458500,
+    "margin": 18945,
+    "percent": 0.02118190324180392
+  },
+  {
+    "id": 12804,
+    "name": "Saradomin's tear",
+    "totalBuying": 1,
+    "totalSelling": 2,
+    "buying": 5000002,
+    "selling": 5018790,
+    "margin": 18788,
+    "percent": 0.37575984969606013
+  },
+  {
+    "id": 20756,
+    "name": "Hill giant club",
+    "totalBuying": 8,
+    "totalSelling": 5,
+    "buying": 941781,
+    "selling": 959600,
+    "margin": 17819,
+    "percent": 1.8920534604117092
+  },
+  {
+    "id": 19529,
+    "name": "Zenyte shard",
+    "totalBuying": 13,
+    "totalSelling": 5,
+    "buying": 7600000,
+    "selling": 7617000,
+    "margin": 17000,
+    "percent": 0.22368421052631576
+  },
+  {
+    "id": 21298,
+    "name": "Obsidian helmet",
+    "totalBuying": 13,
+    "totalSelling": 6,
+    "buying": 889645,
+    "selling": 905092,
+    "margin": 15447,
+    "percent": 1.7363105508376937
+  },
+  {
+    "id": 12351,
+    "name": "Musketeer hat",
+    "totalBuying": 9,
+    "totalSelling": 7,
+    "buying": 445673,
+    "selling": 460712,
+    "margin": 15039,
+    "percent": 3.374447184370603
+  },
+  {
+    "id": 4759,
+    "name": "Verac's plateskirt",
+    "totalBuying": 23,
+    "totalSelling": 38,
+    "buying": 1096707,
+    "selling": 1108459,
+    "margin": 11752,
+    "percent": 1.071571531867673
+  },
+  {
+    "id": 19936,
+    "name": "Zamorak d'hide boots",
+    "totalBuying": 16,
+    "totalSelling": 6,
+    "buying": 803420,
+    "selling": 814670,
+    "margin": 11250,
+    "percent": 1.4002638719474247
+  },
+  {
+    "id": 5316,
+    "name": "Magic seed",
+    "totalBuying": 1,
+    "totalSelling": 90,
+    "buying": 190000,
+    "selling": 201125,
+    "margin": 11125,
+    "percent": 5.855263157894737
+  },
+  {
+    "id": 12932,
+    "name": "Magic fang",
+    "totalBuying": 13,
+    "totalSelling": 9,
+    "buying": 2901146,
+    "selling": 2911390,
+    "margin": 10244,
+    "percent": 0.35310184320265164
+  },
+  {
+    "id": 12002,
+    "name": "Occult necklace",
+    "totalBuying": 49,
+    "totalSelling": 46,
+    "buying": 495121,
+    "selling": 504593,
+    "margin": 9472,
+    "percent": 1.9130677147606343
+  },
+  {
+    "id": 3486,
+    "name": "Gilded full helm",
+    "totalBuying": 1,
+    "totalSelling": 1,
+    "buying": 780995,
+    "selling": 790000,
+    "margin": 9005,
+    "percent": 1.1530163445348562
+  },
+  {
+    "id": 4099,
+    "name": "Mystic hat (dark)",
+    "totalBuying": 90,
+    "totalSelling": 61,
+    "buying": 9166,
+    "selling": 18029,
+    "margin": 8863,
+    "percent": 96.69430504036657
+  },
+  {
+    "id": 12624,
+    "name": "Ancient page 4",
+    "totalBuying": 1,
+    "totalSelling": 5,
+    "buying": 175000,
+    "selling": 183605,
+    "margin": 8605,
+    "percent": 4.917142857142857
+  },
+  {
+    "id": 20520,
+    "name": "Elder chaos robe",
+    "totalBuying": 10,
+    "totalSelling": 1,
+    "buying": 405742,
+    "selling": 412115,
+    "margin": 6373,
+    "percent": 1.5707025646839616
+  },
+  {
+    "id": 2064,
+    "name": "Blurberry special",
+    "totalBuying": 2,
+    "totalSelling": 2,
+    "buying": 5995,
+    "selling": 12000,
+    "margin": 6005,
+    "percent": 100.16680567139282
+  },
+  {
+    "id": 12492,
+    "name": "Ancient d'hide",
+    "totalBuying": 12,
+    "totalSelling": 6,
+    "buying": 81776,
+    "selling": 87656,
+    "margin": 5880,
+    "percent": 7.190373703776169
+  },
+  {
+    "id": 12528,
+    "name": "Dark infinity colour kit",
+    "totalBuying": 6,
+    "totalSelling": 3,
+    "buying": 51505,
+    "selling": 57167,
+    "margin": 5662,
+    "percent": 10.993107465294631
+  },
+  {
+    "id": 11205,
+    "name": "Shrunk ogleroot",
+    "totalBuying": 2,
+    "totalSelling": 1,
+    "buying": 50,
+    "selling": 5000,
+    "margin": 4950,
+    "percent": 9900
+  },
+  {
+    "id": 3832,
+    "name": "Zamorak page 2",
+    "totalBuying": 3,
+    "totalSelling": 6,
+    "buying": 691075,
+    "selling": 695859,
+    "margin": 4784,
+    "percent": 0.6922548203885251
+  },
+  {
+    "id": 21009,
+    "name": "Dragon sword",
+    "totalBuying": 7,
+    "totalSelling": 10,
+    "buying": 938569,
+    "selling": 943021,
+    "margin": 4452,
+    "percent": 0.4743391269048946
+  },
+  {
+    "id": 12512,
+    "name": "Armadyl coif",
+    "totalBuying": 2,
+    "totalSelling": 1,
+    "buying": 51261,
+    "selling": 55522,
+    "margin": 4261,
+    "percent": 8.312362224693237
+  },
+  {
+    "id": 20517,
+    "name": "Elder chaos top",
+    "totalBuying": 6,
+    "totalSelling": 6,
+    "buying": 563500,
+    "selling": 567666,
+    "margin": 4166,
+    "percent": 0.7393078970718723
+  },
+  {
+    "id": 10418,
+    "name": "Purple elegant legs",
+    "totalBuying": 4,
+    "totalSelling": 2,
+    "buying": 1446,
+    "selling": 5444,
+    "margin": 3998,
+    "percent": 276.4868603042877
+  },
+  {
+    "id": 20002,
+    "name": "Dragon scimitar ornament kit",
+    "totalBuying": 1,
+    "totalSelling": 1,
+    "buying": 1965000,
+    "selling": 1968788,
+    "margin": 3788,
+    "percent": 0.1927735368956743
+  },
+  {
+    "id": 3831,
+    "name": "Zamorak page 1",
+    "totalBuying": 7,
+    "totalSelling": 11,
+    "buying": 429627,
+    "selling": 433077,
+    "margin": 3450,
+    "percent": 0.8030221564287161
+  },
+  {
+    "id": 10378,
+    "name": "Guthix dragonhide",
+    "totalBuying": 7,
+    "totalSelling": 4,
+    "buying": 89923,
+    "selling": 93085,
+    "margin": 3162,
+    "percent": 3.5163417590605297
+  },
+  {
+    "id": 12530,
+    "name": "Light infinity colour kit",
+    "totalBuying": 3,
+    "totalSelling": 1,
+    "buying": 47000,
+    "selling": 50000,
+    "margin": 3000,
+    "percent": 6.382978723404255
+  },
+  {
+    "id": 12532,
+    "name": "Dragon sq shield ornament kit",
+    "totalBuying": 1,
+    "totalSelling": 2,
+    "buying": 18589,
+    "selling": 21305,
+    "margin": 2716,
+    "percent": 14.610791328204852
+  },
+  {
+    "id": 6617,
+    "name": "White platebody",
+    "totalBuying": 14,
+    "totalSelling": 8,
+    "buying": 3362,
+    "selling": 5809,
+    "margin": 2447,
+    "percent": 72.78405710886378
+  },
+  {
+    "id": 6311,
+    "name": "Gout tuber",
+    "totalBuying": 3,
+    "totalSelling": 4,
+    "buying": 780333,
+    "selling": 782749,
+    "margin": 2416,
+    "percent": 0.30961140948800064
+  },
+  {
+    "id": 1111,
+    "name": "Adamant chainbody",
+    "totalBuying": 4,
+    "totalSelling": 14,
+    "buying": 2670,
+    "selling": 4832,
+    "margin": 2162,
+    "percent": 80.97378277153558
+  },
+  {
+    "id": 10400,
+    "name": "Black elegant shirt",
+    "totalBuying": 4,
+    "totalSelling": 2,
+    "buying": 32474,
+    "selling": 34538,
+    "margin": 2064,
+    "percent": 6.355853913900352
+  },
+  {
+    "id": 12534,
+    "name": "Dragon chainbody ornament kit",
+    "totalBuying": 5,
+    "totalSelling": 1,
+    "buying": 120101,
+    "selling": 122122,
+    "margin": 2021,
+    "percent": 1.6827503517872457
+  },
+  {
+    "id": 6585,
+    "name": "Amulet of fury",
+    "totalBuying": 110,
+    "totalSelling": 100,
+    "buying": 3129137,
+    "selling": 3131115,
+    "margin": 1978,
+    "percent": 0.06321231700625445
+  },
+  {
+    "id": 10364,
+    "name": "Strength amulet (t)",
+    "totalBuying": 9,
+    "totalSelling": 17,
+    "buying": 29722,
+    "selling": 31689,
+    "margin": 1967,
+    "percent": 6.617993405558173
+  },
+  {
+    "id": 11926,
+    "name": "Odium ward",
+    "totalBuying": 13,
+    "totalSelling": 14,
+    "buying": 3559322,
+    "selling": 3561173,
+    "margin": 1851,
+    "percent": 0.05200428620956463
+  },
+  {
+    "id": 20181,
+    "name": "Steel kiteshield (g)",
+    "totalBuying": 1,
+    "totalSelling": 3,
+    "buying": 15600,
+    "selling": 17374,
+    "margin": 1774,
+    "percent": 11.371794871794872
+  },
+  {
+    "id": 1055,
+    "name": "Blue halloween mask",
+    "totalBuying": 11,
+    "totalSelling": 30,
+    "buying": 4226,
+    "selling": 5889,
+    "margin": 1663,
+    "percent": 39.351632749645056
+  },
+  {
+    "id": 12496,
+    "name": "Ancient coif",
+    "totalBuying": 5,
+    "totalSelling": 4,
+    "buying": 34280,
+    "selling": 35913,
+    "margin": 1633,
+    "percent": 4.763710618436406
+  },
+  {
+    "id": 3833,
+    "name": "Zamorak page 3",
+    "totalBuying": 9,
+    "totalSelling": 4,
+    "buying": 483447,
+    "selling": 485051,
+    "margin": 1604,
+    "percent": 0.3317840425113818
+  },
+  {
+    "id": 6633,
+    "name": "White kiteshield",
+    "totalBuying": 2,
+    "totalSelling": 3,
+    "buying": 3500,
+    "selling": 5099,
+    "margin": 1599,
+    "percent": 45.68571428571428
+  },
+  {
+    "id": 2615,
+    "name": "Rune platebody (g)",
+    "totalBuying": 4,
+    "totalSelling": 14,
+    "buying": 42027,
+    "selling": 43592,
+    "margin": 1565,
+    "percent": 3.7237966069431554
+  },
+  {
+    "id": 5547,
+    "name": "Death tiara",
+    "totalBuying": 25,
+    "totalSelling": 8,
+    "buying": 1162,
+    "selling": 2656,
+    "margin": 1494,
+    "percent": 128.57142857142858
+  },
+  {
+    "id": 1472,
+    "name": "Yellow bead",
+    "totalBuying": 59,
+    "totalSelling": 88,
+    "buying": 976,
+    "selling": 2312,
+    "margin": 1336,
+    "percent": 136.88524590163937
+  },
+  {
+    "id": 2657,
+    "name": "Zamorak full helm",
+    "totalBuying": 4,
+    "totalSelling": 4,
+    "buying": 96000,
+    "selling": 97275,
+    "margin": 1275,
+    "percent": 1.328125
+  },
+  {
+    "id": 11830,
+    "name": "Armadyl chainskirt",
+    "totalBuying": 15,
+    "totalSelling": 16,
+    "buying": 26387635,
+    "selling": 26388907,
+    "margin": 1272,
+    "percent": 0.004820439573307725
+  },
+  {
+    "id": 4107,
+    "name": "Mystic boots (dark)",
+    "totalBuying": 6,
+    "totalSelling": 152,
+    "buying": 48882,
+    "selling": 50135,
+    "margin": 1253,
+    "percent": 2.563315739945174
+  },
+  {
+    "id": 10464,
+    "name": "Saradomin robe legs",
+    "totalBuying": 15,
+    "totalSelling": 1,
+    "buying": 72951,
+    "selling": 74185,
+    "margin": 1234,
+    "percent": 1.6915463804471496
+  },
+  {
+    "id": 2651,
+    "name": "Pirate's hat",
+    "totalBuying": 2,
+    "totalSelling": 7,
+    "buying": 9218,
+    "selling": 10424,
+    "margin": 1206,
+    "percent": 13.083098285962247
+  },
+  {
+    "id": 2629,
+    "name": "Rune kiteshield (t)",
+    "totalBuying": 1,
+    "totalSelling": 4,
+    "buying": 36000,
+    "selling": 37149,
+    "margin": 1149,
+    "percent": 3.191666666666667
+  },
+  {
+    "id": 2653,
+    "name": "Zamorak platebody",
+    "totalBuying": 6,
+    "totalSelling": 2,
+    "buying": 60649,
+    "selling": 61699,
+    "margin": 1050,
+    "percent": 1.7312733928012005
+  },
+  {
+    "id": 12622,
+    "name": "Ancient page 2",
+    "totalBuying": 1,
+    "totalSelling": 5,
+    "buying": 160000,
+    "selling": 161010,
+    "margin": 1010,
+    "percent": 0.6312500000000001
+  },
+  {
+    "id": 6752,
+    "name": "Black desert robe",
+    "totalBuying": 38,
+    "totalSelling": 2,
+    "buying": 2509,
+    "selling": 3449,
+    "margin": 940,
+    "percent": 37.4651255480271
+  },
+  {
+    "id": 4714,
+    "name": "Ahrim's robeskirt",
+    "totalBuying": 25,
+    "totalSelling": 16,
+    "buying": 1066640,
+    "selling": 1067477,
+    "margin": 837,
+    "percent": 0.0784707117677942
+  },
+  {
+    "id": 3834,
+    "name": "Zamorak page 4",
+    "totalBuying": 4,
+    "totalSelling": 10,
+    "buying": 338994,
+    "selling": 339785,
+    "margin": 791,
+    "percent": 0.23333746319993864
+  },
+  {
+    "id": 6731,
+    "name": "Seers ring",
+    "totalBuying": 23,
+    "totalSelling": 30,
+    "buying": 347774,
+    "selling": 348437,
+    "margin": 663,
+    "percent": 0.19064104849701244
+  },
+  {
+    "id": 4736,
+    "name": "Karil's leathertop",
+    "totalBuying": 29,
+    "totalSelling": 25,
+    "buying": 1738131,
+    "selling": 1738752,
+    "margin": 621,
+    "percent": 0.0357280320067935
+  },
+  {
+    "id": 12327,
+    "name": "Red d'hide body (g)",
+    "totalBuying": 2,
+    "totalSelling": 3,
+    "buying": 7452,
+    "selling": 7990,
+    "margin": 538,
+    "percent": 7.219538378958669
+  },
+  {
+    "id": 12746,
+    "name": "Mysterious emblem",
+    "totalBuying": 374,
+    "totalSelling": 940,
+    "buying": 118630,
+    "selling": 119164,
+    "margin": 534,
+    "percent": 0.45013908792042484
+  },
+  {
+    "id": 4170,
+    "name": "Slayer's staff",
+    "totalBuying": 6,
+    "totalSelling": 19,
+    "buying": 21230,
+    "selling": 21725,
+    "margin": 495,
+    "percent": 2.33160621761658
+  },
+  {
+    "id": 3107,
+    "name": "Spiked boots",
+    "totalBuying": 2,
+    "totalSelling": 3,
+    "buying": 2870,
+    "selling": 3335,
+    "margin": 465,
+    "percent": 16.202090592334496
+  },
+  {
+    "id": 6317,
+    "name": "Red topaz machete",
+    "totalBuying": 3,
+    "totalSelling": 1,
+    "buying": 16538,
+    "selling": 17000,
+    "margin": 462,
+    "percent": 2.793566332083686
+  },
+  {
+    "id": 1241,
+    "name": "Steel spear",
+    "totalBuying": 2,
+    "totalSelling": 3,
+    "buying": 1630,
+    "selling": 2087,
+    "margin": 457,
+    "percent": 28.03680981595092
+  },
+  {
+    "id": 1046,
+    "name": "Purple partyhat",
+    "totalBuying": 48,
+    "totalSelling": 32,
+    "buying": 3073,
+    "selling": 3521,
+    "margin": 448,
+    "percent": 14.578587699316628
+  },
+  {
+    "id": 1355,
+    "name": "Mithril axe",
+    "totalBuying": 1546,
+    "totalSelling": 250,
+    "buying": 227,
+    "selling": 650,
+    "margin": 423,
+    "percent": 186.34361233480178
+  },
+  {
+    "id": 12490,
+    "name": "Ancient bracers",
+    "totalBuying": 1,
+    "totalSelling": 4,
+    "buying": 10453,
+    "selling": 10865,
+    "margin": 412,
+    "percent": 3.941452214675213
+  },
+  {
+    "id": 6981,
+    "name": "Granite (2kg)",
+    "totalBuying": 22,
+    "totalSelling": 1,
+    "buying": 67,
+    "selling": 450,
+    "margin": 383,
+    "percent": 571.6417910447761
+  },
+  {
+    "id": 6625,
+    "name": "White platelegs",
+    "totalBuying": 4,
+    "totalSelling": 4,
+    "buying": 3267,
+    "selling": 3633,
+    "margin": 366,
+    "percent": 11.202938475665748
+  },
+  {
+    "id": 11250,
+    "name": "Nature impling jar",
+    "totalBuying": 37,
+    "totalSelling": 58,
+    "buying": 4003,
+    "selling": 4328,
+    "margin": 325,
+    "percent": 8.118910816887334
+  },
+  {
+    "id": 12913,
+    "name": "Anti-venom+(4)",
+    "totalBuying": 2100,
+    "totalSelling": 155,
+    "buying": 6157,
+    "selling": 6460,
+    "margin": 303,
+    "percent": 4.921227870716257
+  },
+  {
+    "id": 1383,
+    "name": "Staff of water",
+    "totalBuying": 14,
+    "totalSelling": 18,
+    "buying": 1700,
+    "selling": 1960,
+    "margin": 260,
+    "percent": 15.294117647058824
+  },
+  {
+    "id": 658,
+    "name": "Green hat",
+    "totalBuying": 2,
+    "totalSelling": 3,
+    "buying": 188,
+    "selling": 445,
+    "margin": 257,
+    "percent": 136.70212765957444
+  },
+  {
+    "id": 4115,
+    "name": "Mystic gloves (light)",
+    "totalBuying": 4,
+    "totalSelling": 24,
+    "buying": 6028,
+    "selling": 6276,
+    "margin": 248,
+    "percent": 4.11413404114134
+  },
+  {
+    "id": 2501,
+    "name": "Red d'hide body",
+    "totalBuying": 82,
+    "totalSelling": 19,
+    "buying": 6403,
+    "selling": 6637,
+    "margin": 234,
+    "percent": 3.654536935811339
+  },
+  {
+    "id": 13237,
+    "name": "Pegasian boots",
+    "totalBuying": 26,
+    "totalSelling": 29,
+    "buying": 24874381,
+    "selling": 24874612,
+    "margin": 231,
+    "percent": 0.0009286663254052432
+  },
+  {
+    "id": 20047,
+    "name": "Samurai boots",
+    "totalBuying": 1,
+    "totalSelling": 3,
+    "buying": 40967,
+    "selling": 41160,
+    "margin": 193,
+    "percent": 0.47111089413430324
+  },
+  {
+    "id": 5374,
+    "name": "Magic sapling",
+    "totalBuying": 275,
+    "totalSelling": 323,
+    "buying": 190863,
+    "selling": 191049,
+    "margin": 186,
+    "percent": 0.09745209914965185
+  },
+  {
+    "id": 4417,
+    "name": "Guthix rest(4)",
+    "totalBuying": 2568,
+    "totalSelling": 1040,
+    "buying": 2645,
+    "selling": 2831,
+    "margin": 186,
+    "percent": 7.032136105860114
+  },
+  {
+    "id": 12615,
+    "name": "Bandos page 3",
+    "totalBuying": 1,
+    "totalSelling": 6,
+    "buying": 2522,
+    "selling": 2701,
+    "margin": 179,
+    "percent": 7.0975416336241075
+  },
+  {
+    "id": 10828,
+    "name": "Helm of neitiznot",
+    "totalBuying": 192,
+    "totalSelling": 133,
+    "buying": 37747,
+    "selling": 37921,
+    "margin": 174,
+    "percent": 0.46096378520147296
+  },
+  {
+    "id": 2106,
+    "name": "Lemon slices",
+    "totalBuying": 2,
+    "totalSelling": 1,
+    "buying": 233,
+    "selling": 400,
+    "margin": 167,
+    "percent": 71.67381974248927
+  },
+  {
+    "id": 12614,
+    "name": "Bandos page 2",
+    "totalBuying": 1,
+    "totalSelling": 6,
+    "buying": 2525,
+    "selling": 2688,
+    "margin": 163,
+    "percent": 6.455445544554456
+  },
+  {
+    "id": 12911,
+    "name": "Anti-venom(1)",
+    "totalBuying": 3,
+    "totalSelling": 2,
+    "buying": 666,
+    "selling": 825,
+    "margin": 159,
+    "percent": 23.873873873873876
+  },
+  {
+    "id": 975,
+    "name": "Machete",
+    "totalBuying": 5,
+    "totalSelling": 8,
+    "buying": 157,
+    "selling": 300,
+    "margin": 143,
+    "percent": 91.0828025477707
+  },
+  {
+    "id": 1044,
+    "name": "Green partyhat",
+    "totalBuying": 3,
+    "totalSelling": 17,
+    "buying": 4315,
+    "selling": 4455,
+    "margin": 140,
+    "percent": 3.2444959443800694
+  },
+  {
+    "id": 6623,
+    "name": "White full helm",
+    "totalBuying": 4,
+    "totalSelling": 4,
+    "buying": 4204,
+    "selling": 4330,
+    "margin": 126,
+    "percent": 2.997145575642245
+  },
+  {
+    "id": 11037,
+    "name": "Brine sabre",
+    "totalBuying": 13,
+    "totalSelling": 10,
+    "buying": 288841,
+    "selling": 288962,
+    "margin": 121,
+    "percent": 0.041891559716245266
+  },
+  {
+    "id": 6016,
+    "name": "Cactus spine",
+    "totalBuying": 5002,
+    "totalSelling": 230,
+    "buying": 6384,
+    "selling": 6503,
+    "margin": 119,
+    "percent": 1.8640350877192982
+  },
+  {
+    "id": 5295,
+    "name": "Ranarr seed",
+    "totalBuying": 813,
+    "totalSelling": 1011,
+    "buying": 36322,
+    "selling": 36433,
+    "margin": 111,
+    "percent": 0.3055999118991245
+  },
+  {
+    "id": 6750,
+    "name": "Black desert shirt",
+    "totalBuying": 2,
+    "totalSelling": 2,
+    "buying": 3640,
+    "selling": 3749,
+    "margin": 109,
+    "percent": 2.9945054945054945
+  },
+  {
+    "id": 2671,
+    "name": "Guthix platelegs",
+    "totalBuying": 4,
+    "totalSelling": 1,
+    "buying": 40396,
+    "selling": 40505,
+    "margin": 109,
+    "percent": 0.2698286959104862
+  },
+  {
+    "id": 1077,
+    "name": "Black platelegs",
+    "totalBuying": 47,
+    "totalSelling": 7,
+    "buying": 1373,
+    "selling": 1482,
+    "margin": 109,
+    "percent": 7.938820101966497
+  },
+  {
+    "id": 5396,
+    "name": "Oranges(5)",
+    "totalBuying": 117,
+    "totalSelling": 40,
+    "buying": 793,
+    "selling": 899,
+    "margin": 106,
+    "percent": 13.366960907944513
+  },
+  {
+    "id": 5299,
+    "name": "Kwuarm seed",
+    "totalBuying": 126,
+    "totalSelling": 744,
+    "buying": 1997,
+    "selling": 2103,
+    "margin": 106,
+    "percent": 5.307961942914371
+  },
+  {
+    "id": 5627,
+    "name": "Rune arrow(p++)",
+    "totalBuying": 74,
+    "totalSelling": 428,
+    "buying": 650,
+    "selling": 754,
+    "margin": 104,
+    "percent": 16
+  },
+  {
+    "id": 3159,
+    "name": "Karambwan vessel",
+    "totalBuying": 74,
+    "totalSelling": 21,
+    "buying": 1392,
+    "selling": 1495,
+    "margin": 103,
+    "percent": 7.399425287356322
+  },
+  {
+    "id": 4944,
+    "name": "Karil's leathertop 0",
+    "totalBuying": 8,
+    "totalSelling": 1,
+    "buying": 1620000,
+    "selling": 1620100,
+    "margin": 100,
+    "percent": 0.00617283950617284
+  },
+  {
+    "id": 6812,
+    "name": "Wyvern bones",
+    "totalBuying": 16078,
+    "totalSelling": 3127,
+    "buying": 2577,
+    "selling": 2673,
+    "margin": 96,
+    "percent": 3.7252619324796274
+  },
+  {
+    "id": 20223,
+    "name": "Unholy blessing",
+    "totalBuying": 13,
+    "totalSelling": 21,
+    "buying": 161924,
+    "selling": 162016,
+    "margin": 92,
+    "percent": 0.056816778241644224
+  },
+  {
+    "id": 5303,
+    "name": "Dwarf weed seed",
+    "totalBuying": 837,
+    "totalSelling": 97,
+    "buying": 298,
+    "selling": 384,
+    "margin": 86,
+    "percent": 28.859060402684566
+  },
+  {
+    "id": 157,
+    "name": "Super strength(3)",
+    "totalBuying": 534,
+    "totalSelling": 63,
+    "buying": 1539,
+    "selling": 1624,
+    "margin": 85,
+    "percent": 5.523066926575698
+  },
+  {
+    "id": 13484,
+    "name": "Ensouled troll head",
+    "totalBuying": 143,
+    "totalSelling": 74,
+    "buying": 2478,
+    "selling": 2556,
+    "margin": 78,
+    "percent": 3.14769975786925
+  },
+  {
+    "id": 4409,
+    "name": "Team-48 cape",
+    "totalBuying": 1,
+    "totalSelling": 1,
+    "buying": 855,
+    "selling": 932,
+    "margin": 77,
+    "percent": 9.005847953216374
+  },
+  {
+    "id": 173,
+    "name": "Ranging potion(1)",
+    "totalBuying": 585,
+    "totalSelling": 1082,
+    "buying": 374,
+    "selling": 449,
+    "margin": 75,
+    "percent": 20.053475935828878
+  },
+  {
+    "id": 103,
+    "name": "Avantoe potion (unf)",
+    "totalBuying": 2216,
+    "totalSelling": 12,
+    "buying": 2623,
+    "selling": 2696,
+    "margin": 73,
+    "percent": 2.7830728173846744
+  },
+  {
+    "id": 5386,
+    "name": "Apples(5)",
+    "totalBuying": 431,
+    "totalSelling": 243,
+    "buying": 693,
+    "selling": 759,
+    "margin": 66,
+    "percent": 9.523809523809524
+  },
+  {
+    "id": 1405,
+    "name": "Mystic air staff",
+    "totalBuying": 2,
+    "totalSelling": 75,
+    "buying": 25167,
+    "selling": 25233,
+    "margin": 66,
+    "percent": 0.2622481821432829
+  },
+  {
+    "id": 1474,
+    "name": "Black bead",
+    "totalBuying": 8,
+    "totalSelling": 10,
+    "buying": 1959,
+    "selling": 2024,
+    "margin": 65,
+    "percent": 3.3180193976518635
+  },
+  {
+    "id": 9375,
+    "name": "Bronze bolts (unf)",
+    "totalBuying": 3807,
+    "totalSelling": 341,
+    "buying": 6,
+    "selling": 69,
+    "margin": 63,
+    "percent": 1050
+  },
+  {
+    "id": 6470,
+    "name": "Compost potion(4)",
+    "totalBuying": 125,
+    "totalSelling": 280,
+    "buying": 710,
+    "selling": 773,
+    "margin": 63,
+    "percent": 8.87323943661972
+  },
+  {
+    "id": 7416,
+    "name": "Mole claw",
+    "totalBuying": 600,
+    "totalSelling": 140,
+    "buying": 6097,
+    "selling": 6158,
+    "margin": 61,
+    "percent": 1.0004920452681647
+  },
+  {
+    "id": 1177,
+    "name": "Steel sq shield",
+    "totalBuying": 1,
+    "totalSelling": 21,
+    "buying": 228,
+    "selling": 289,
+    "margin": 61,
+    "percent": 26.75438596491228
+  },
+  {
+    "id": 4587,
+    "name": "Dragon scimitar",
+    "totalBuying": 124,
+    "totalSelling": 282,
+    "buying": 59696,
+    "selling": 59752,
+    "margin": 56,
+    "percent": 0.09380863039399624
+  },
+  {
+    "id": 5343,
+    "name": "Seed dibber",
+    "totalBuying": 34,
+    "totalSelling": 1,
+    "buying": 208,
+    "selling": 262,
+    "margin": 54,
+    "percent": 25.961538461538463
+  },
+  {
+    "id": 5293,
+    "name": "Tarromin seed",
+    "totalBuying": 24,
+    "totalSelling": 32,
+    "buying": 31,
+    "selling": 85,
+    "margin": 54,
+    "percent": 174.19354838709677
+  },
+  {
+    "id": 12407,
+    "name": "Pest control teleport",
+    "totalBuying": 162,
+    "totalSelling": 1164,
+    "buying": 763,
+    "selling": 813,
+    "margin": 50,
+    "percent": 6.553079947575361
+  },
+  {
+    "id": 2503,
+    "name": "Black d'hide body",
+    "totalBuying": 1340,
+    "totalSelling": 87,
+    "buying": 7656,
+    "selling": 7705,
+    "margin": 49,
+    "percent": 0.6400208986415883
+  },
+  {
+    "id": 9194,
+    "name": "Onyx bolt tips",
+    "totalBuying": 4330,
+    "totalSelling": 941,
+    "buying": 8356,
+    "selling": 8404,
+    "margin": 48,
+    "percent": 0.5744375299186213
+  },
+  {
+    "id": 5667,
+    "name": "Rune knife(p++)",
+    "totalBuying": 8007,
+    "totalSelling": 5876,
+    "buying": 797,
+    "selling": 844,
+    "margin": 47,
+    "percent": 5.897114178168131
+  },
+  {
+    "id": 1181,
+    "name": "Mithril sq shield",
+    "totalBuying": 33,
+    "totalSelling": 47,
+    "buying": 740,
+    "selling": 787,
+    "margin": 47,
+    "percent": 6.351351351351352
+  },
+  {
+    "id": 12917,
+    "name": "Anti-venom+(2)",
+    "totalBuying": 138,
+    "totalSelling": 4,
+    "buying": 1958,
+    "selling": 2003,
+    "margin": 45,
+    "percent": 2.29826353421859
+  },
+  {
+    "id": 6322,
+    "name": "Snakeskin body",
+    "totalBuying": 2,
+    "totalSelling": 1,
+    "buying": 590,
+    "selling": 635,
+    "margin": 45,
+    "percent": 7.627118644067797
+  },
+  {
+    "id": 1679,
+    "name": "Ruby amulet (u)",
+    "totalBuying": 150,
+    "totalSelling": 3,
+    "buying": 1150,
+    "selling": 1192,
+    "margin": 42,
+    "percent": 3.6521739130434785
+  },
+  {
+    "id": 11951,
+    "name": "Extended antifire (4)",
+    "totalBuying": 978,
+    "totalSelling": 3910,
+    "buying": 464,
+    "selling": 505,
+    "margin": 41,
+    "percent": 8.836206896551724
+  },
+  {
+    "id": 5502,
+    "name": "Palm sapling",
+    "totalBuying": 78,
+    "totalSelling": 34,
+    "buying": 63139,
+    "selling": 63180,
+    "margin": 41,
+    "percent": 0.0649360933812699
+  },
+  {
+    "id": 3032,
+    "name": "Agility potion(4)",
+    "totalBuying": 454,
+    "totalSelling": 74,
+    "buying": 1008,
+    "selling": 1047,
+    "margin": 39,
+    "percent": 3.869047619047619
+  },
+  {
+    "id": 1123,
+    "name": "Adamant platebody",
+    "totalBuying": 1701,
+    "totalSelling": 1503,
+    "buying": 9677,
+    "selling": 9714,
+    "margin": 37,
+    "percent": 0.38234990182907924
+  },
+  {
+    "id": 2912,
+    "name": "Red gloves",
+    "totalBuying": 11,
+    "totalSelling": 6,
+    "buying": 896,
+    "selling": 930,
+    "margin": 34,
+    "percent": 3.7946428571428568
+  },
+  {
+    "id": 2483,
+    "name": "Lantadyme potion (unf)",
+    "totalBuying": 2,
+    "totalSelling": 8369,
+    "buying": 2180,
+    "selling": 2214,
+    "margin": 34,
+    "percent": 1.5596330275229358
+  },
+  {
+    "id": 6324,
+    "name": "Snakeskin chaps",
+    "totalBuying": 254,
+    "totalSelling": 1,
+    "buying": 491,
+    "selling": 521,
+    "margin": 30,
+    "percent": 6.109979633401222
+  },
+  {
+    "id": 187,
+    "name": "Weapon poison",
+    "totalBuying": 1,
+    "totalSelling": 3,
+    "buying": 300,
+    "selling": 330,
+    "margin": 30,
+    "percent": 10
+  },
+  {
+    "id": 5298,
+    "name": "Avantoe seed",
+    "totalBuying": 124,
+    "totalSelling": 126,
+    "buying": 863,
+    "selling": 891,
+    "margin": 28,
+    "percent": 3.2444959443800694
+  },
+  {
+    "id": 101,
+    "name": "Irit potion (unf)",
+    "totalBuying": 1639,
+    "totalSelling": 16692,
+    "buying": 1202,
+    "selling": 1230,
+    "margin": 28,
+    "percent": 2.329450915141431
+  },
+  {
+    "id": 5302,
+    "name": "Lantadyme seed",
+    "totalBuying": 225,
+    "totalSelling": 124,
+    "buying": 1063,
+    "selling": 1090,
+    "margin": 27,
+    "percent": 2.539981185324553
+  },
+  {
+    "id": 2499,
+    "name": "Blue d'hide body",
+    "totalBuying": 2138,
+    "totalSelling": 2272,
+    "buying": 5297,
+    "selling": 5323,
+    "margin": 26,
+    "percent": 0.49084387389088163
+  },
+  {
+    "id": 11957,
+    "name": "Extended antifire (1)",
+    "totalBuying": 462,
+    "totalSelling": 95,
+    "buying": 344,
+    "selling": 369,
+    "margin": 25,
+    "percent": 7.267441860465117
+  },
+  {
+    "id": 215,
+    "name": "Grimy cadantine",
+    "totalBuying": 772,
+    "totalSelling": 4782,
+    "buying": 1504,
+    "selling": 1529,
+    "margin": 25,
+    "percent": 1.6622340425531914
+  },
+  {
+    "id": 6055,
+    "name": "Weeds",
+    "totalBuying": 1482,
+    "totalSelling": 125,
+    "buying": 60,
+    "selling": 84,
+    "margin": 24,
+    "percent": 40
+  },
+  {
+    "id": 1161,
+    "name": "Adamant full helm",
+    "totalBuying": 533,
+    "totalSelling": 112,
+    "buying": 1891,
+    "selling": 1915,
+    "margin": 24,
+    "percent": 1.269169751454257
+  },
+  {
+    "id": 263,
+    "name": "Kwuarm",
+    "totalBuying": 1061,
+    "totalSelling": 3056,
+    "buying": 2571,
+    "selling": 2595,
+    "margin": 24,
+    "percent": 0.9334889148191364
+  },
+  {
+    "id": 12409,
+    "name": "Tai bwo wannai teleport",
+    "totalBuying": 162,
+    "totalSelling": 633,
+    "buying": 6944,
+    "selling": 6967,
+    "margin": 23,
+    "percent": 0.33122119815668205
+  },
+  {
+    "id": 9381,
+    "name": "Runite bolts (unf)",
+    "totalBuying": 616,
+    "totalSelling": 1415,
+    "buying": 372,
+    "selling": 395,
+    "margin": 23,
+    "percent": 6.182795698924731
+  },
+  {
+    "id": 5500,
+    "name": "Pineapple sapling",
+    "totalBuying": 115,
+    "totalSelling": 118,
+    "buying": 5425,
+    "selling": 5448,
+    "margin": 23,
+    "percent": 0.423963133640553
+  },
+  {
+    "id": 1115,
+    "name": "Iron platebody",
+    "totalBuying": 940,
+    "totalSelling": 297,
+    "buying": 163,
+    "selling": 185,
+    "margin": 22,
+    "percent": 13.496932515337424
+  },
+  {
+    "id": 3010,
+    "name": "Energy potion(3)",
+    "totalBuying": 298,
+    "totalSelling": 429,
+    "buying": 245,
+    "selling": 266,
+    "margin": 21,
+    "percent": 8.571428571428571
+  },
+  {
+    "id": 1135,
+    "name": "Green d'hide body",
+    "totalBuying": 3484,
+    "totalSelling": 3229,
+    "buying": 4406,
+    "selling": 4427,
+    "margin": 21,
+    "percent": 0.47662278710848843
+  },
+  {
+    "id": 3053,
+    "name": "Lava battlestaff",
+    "totalBuying": 90,
+    "totalSelling": 52,
+    "buying": 9776,
+    "selling": 9796,
+    "margin": 20,
+    "percent": 0.20458265139116205
+  },
+  {
+    "id": 4695,
+    "name": "Mist rune",
+    "totalBuying": 13073,
+    "totalSelling": 27401,
+    "buying": 28,
+    "selling": 46,
+    "margin": 18,
+    "percent": 64.28571428571429
+  },
+  {
+    "id": 4168,
+    "name": "Nose peg",
+    "totalBuying": 5,
+    "totalSelling": 1,
+    "buying": 361,
+    "selling": 379,
+    "margin": 18,
+    "percent": 4.986149584487535
+  },
+  {
+    "id": 1854,
+    "name": "Shantay pass",
+    "totalBuying": 14120,
+    "totalSelling": 1357,
+    "buying": 5,
+    "selling": 19,
+    "margin": 14,
+    "percent": 280
+  },
+  {
+    "id": 1727,
+    "name": "Amulet of magic",
+    "totalBuying": 50,
+    "totalSelling": 37,
+    "buying": 610,
+    "selling": 624,
+    "margin": 14,
+    "percent": 2.2950819672131146
+  },
+  {
+    "id": 363,
+    "name": "Raw bass",
+    "totalBuying": 121,
+    "totalSelling": 1,
+    "buying": 185,
+    "selling": 199,
+    "margin": 14,
+    "percent": 7.567567567567568
+  },
+  {
+    "id": 1359,
+    "name": "Rune axe",
+    "totalBuying": 181,
+    "totalSelling": 212,
+    "buying": 7416,
+    "selling": 7429,
+    "margin": 13,
+    "percent": 0.17529665587918017
+  },
+  {
+    "id": 288,
+    "name": "Goblin mail",
+    "totalBuying": 14,
+    "totalSelling": 9,
+    "buying": 117,
+    "selling": 129,
+    "margin": 12,
+    "percent": 10.256410256410255
+  },
+  {
+    "id": 10008,
+    "name": "Box trap",
+    "totalBuying": 295,
+    "totalSelling": 2902,
+    "buying": 60,
+    "selling": 71,
+    "margin": 11,
+    "percent": 18.333333333333332
+  },
+  {
+    "id": 3002,
+    "name": "Toadflax potion (unf)",
+    "totalBuying": 6619,
+    "totalSelling": 11083,
+    "buying": 2771,
+    "selling": 2782,
+    "margin": 11,
+    "percent": 0.3969686033922772
+  },
+  {
+    "id": 2434,
+    "name": "Prayer potion(4)",
+    "totalBuying": 11575,
+    "totalSelling": 8991,
+    "buying": 10878,
+    "selling": 10889,
+    "margin": 11,
+    "percent": 0.10112152969295826
+  },
+  {
+    "id": 1211,
+    "name": "Adamant dagger",
+    "totalBuying": 445,
+    "totalSelling": 10,
+    "buying": 319,
+    "selling": 330,
+    "margin": 11,
+    "percent": 3.4482758620689653
+  },
+  {
+    "id": 21338,
+    "name": "Amethyst bolt tips",
+    "totalBuying": 7000,
+    "totalSelling": 916,
+    "buying": 271,
+    "selling": 281,
+    "margin": 10,
+    "percent": 3.6900369003690034
+  },
+  {
+    "id": 19580,
+    "name": "Rune javelin heads",
+    "totalBuying": 1832,
+    "totalSelling": 4609,
+    "buying": 653,
+    "selling": 663,
+    "margin": 10,
+    "percent": 1.5313935681470139
+  },
+  {
+    "id": 1005,
+    "name": "White apron",
+    "totalBuying": 2,
+    "totalSelling": 1,
+    "buying": 57,
+    "selling": 67,
+    "margin": 10,
+    "percent": 17.543859649122805
+  },
+  {
+    "id": 159,
+    "name": "Super strength(2)",
+    "totalBuying": 28,
+    "totalSelling": 35,
+    "buying": 1428,
+    "selling": 1438,
+    "margin": 10,
+    "percent": 0.700280112044818
+  },
+  {
+    "id": 9243,
+    "name": "Diamond bolts (e)",
+    "totalBuying": 53089,
+    "totalSelling": 68227,
+    "buying": 474,
+    "selling": 483,
+    "margin": 9,
+    "percent": 1.89873417721519
+  },
+  {
+    "id": 1724,
+    "name": "Unholy symbol",
+    "totalBuying": 1,
+    "totalSelling": 2,
+    "buying": 174,
+    "selling": 183,
+    "margin": 9,
+    "percent": 5.172413793103448
+  },
+  {
+    "id": 5098,
+    "name": "Nasturtium seed",
+    "totalBuying": 864,
+    "totalSelling": 43,
+    "buying": 3,
+    "selling": 11,
+    "margin": 8,
+    "percent": 266.66666666666663
+  },
+  {
+    "id": 4123,
+    "name": "Steel boots",
+    "totalBuying": 1,
+    "totalSelling": 2,
+    "buying": 42,
+    "selling": 50,
+    "margin": 8,
+    "percent": 19.047619047619047
+  },
+  {
+    "id": 10034,
+    "name": "Red chinchompa",
+    "totalBuying": 90579,
+    "totalSelling": 43635,
+    "buying": 1561,
+    "selling": 1568,
+    "margin": 7,
+    "percent": 0.4484304932735426
+  },
+  {
+    "id": 9244,
+    "name": "Dragon bolts (e)",
+    "totalBuying": 10349,
+    "totalSelling": 2088,
+    "buying": 1791,
+    "selling": 1798,
+    "margin": 7,
+    "percent": 0.3908431044109436
+  },
+  {
+    "id": 8007,
+    "name": "Varrock teleport",
+    "totalBuying": 4263,
+    "totalSelling": 17175,
+    "buying": 586,
+    "selling": 593,
+    "margin": 7,
+    "percent": 1.1945392491467577
+  },
+  {
+    "id": 1947,
+    "name": "Grain",
+    "totalBuying": 40,
+    "totalSelling": 3711,
+    "buying": 32,
+    "selling": 39,
+    "margin": 7,
+    "percent": 21.875
+  },
+  {
+    "id": 1321,
+    "name": "Bronze scimitar",
+    "totalBuying": 1,
+    "totalSelling": 8,
+    "buying": 2,
+    "selling": 9,
+    "margin": 7,
+    "percent": 350
+  },
+  {
+    "id": 133,
+    "name": "Defence potion(3)",
+    "totalBuying": 3,
+    "totalSelling": 2,
+    "buying": 541,
+    "selling": 548,
+    "margin": 7,
+    "percent": 1.2939001848428837
+  },
+  {
+    "id": 5982,
+    "name": "Watermelon",
+    "totalBuying": 19287,
+    "totalSelling": 2145,
+    "buying": 19,
+    "selling": 25,
+    "margin": 6,
+    "percent": 31.57894736842105
+  },
+  {
+    "id": 4697,
+    "name": "Smoke rune",
+    "totalBuying": 30,
+    "totalSelling": 2500,
+    "buying": 18,
+    "selling": 24,
+    "margin": 6,
+    "percent": 33.33333333333333
+  },
+  {
+    "id": 1478,
+    "name": "Amulet of accuracy",
+    "totalBuying": 16,
+    "totalSelling": 3,
+    "buying": 1644,
+    "selling": 1650,
+    "margin": 6,
+    "percent": 0.36496350364963503
+  },
+  {
+    "id": 987,
+    "name": "Loop half of key",
+    "totalBuying": 118,
+    "totalSelling": 173,
+    "buying": 8681,
+    "selling": 8687,
+    "margin": 6,
+    "percent": 0.06911646123718465
+  },
+  {
+    "id": 573,
+    "name": "Air orb",
+    "totalBuying": 23606,
+    "totalSelling": 10993,
+    "buying": 1034,
+    "selling": 1040,
+    "margin": 6,
+    "percent": 0.5802707930367506
+  },
+  {
+    "id": 10158,
+    "name": "Kebbit bolts",
+    "totalBuying": 2227,
+    "totalSelling": 1026,
+    "buying": 69,
+    "selling": 74,
+    "margin": 5,
+    "percent": 7.246376811594203
+  },
+  {
+    "id": 5312,
+    "name": "Acorn",
+    "totalBuying": 730,
+    "totalSelling": 224,
+    "buying": 32,
+    "selling": 37,
+    "margin": 5,
+    "percent": 15.625
+  },
+  {
+    "id": 3051,
+    "name": "Grimy snapdragon",
+    "totalBuying": 2086,
+    "totalSelling": 1431,
+    "buying": 9415,
+    "selling": 9420,
+    "margin": 5,
+    "percent": 0.05310674455655868
+  },
+  {
+    "id": 1075,
+    "name": "Bronze platelegs",
+    "totalBuying": 3,
+    "totalSelling": 6,
+    "buying": 57,
+    "selling": 62,
+    "margin": 5,
+    "percent": 8.771929824561402
+  },
+  {
+    "id": 407,
+    "name": "Oyster",
+    "totalBuying": 81,
+    "totalSelling": 2,
+    "buying": 25,
+    "selling": 30,
+    "margin": 5,
+    "percent": 20
+  },
+  {
+    "id": 3049,
+    "name": "Grimy toadflax",
+    "totalBuying": 1417,
+    "totalSelling": 1801,
+    "buying": 2510,
+    "selling": 2514,
+    "margin": 4,
+    "percent": 0.1593625498007968
+  },
+  {
+    "id": 820,
+    "name": "Iron dart tip",
+    "totalBuying": 15189,
+    "totalSelling": 5892,
+    "buying": 34,
+    "selling": 38,
+    "margin": 4,
+    "percent": 11.76470588235294
+  },
+  {
+    "id": 451,
+    "name": "Runite ore",
+    "totalBuying": 2801,
+    "totalSelling": 1870,
+    "buying": 11265,
+    "selling": 11269,
+    "margin": 4,
+    "percent": 0.03550821127385708
+  },
+  {
+    "id": 7060,
+    "name": "Tuna potato",
+    "totalBuying": 1610,
+    "totalSelling": 3934,
+    "buying": 1125,
+    "selling": 1128,
+    "margin": 3,
+    "percent": 0.26666666666666666
+  },
+  {
+    "id": 2505,
+    "name": "Blue dragon leather",
+    "totalBuying": 13177,
+    "totalSelling": 10520,
+    "buying": 2284,
+    "selling": 2287,
+    "margin": 3,
+    "percent": 0.13134851138353765
+  },
+  {
+    "id": 1939,
+    "name": "Swamp tar",
+    "totalBuying": 132154,
+    "totalSelling": 141788,
+    "buying": 16,
+    "selling": 19,
+    "margin": 3,
+    "percent": 18.75
+  },
+  {
+    "id": 1741,
+    "name": "Leather",
+    "totalBuying": 3135,
+    "totalSelling": 2763,
+    "buying": 157,
+    "selling": 160,
+    "margin": 3,
+    "percent": 1.910828025477707
+  },
+  {
+    "id": 1237,
+    "name": "Bronze spear",
+    "totalBuying": 13,
+    "totalSelling": 12,
+    "buying": 668,
+    "selling": 671,
+    "margin": 3,
+    "percent": 0.4491017964071856
+  },
+  {
+    "id": 954,
+    "name": "Rope",
+    "totalBuying": 473,
+    "totalSelling": 88,
+    "buying": 47,
+    "selling": 50,
+    "margin": 3,
+    "percent": 6.382978723404255
+  },
+  {
+    "id": 868,
+    "name": "Rune knife",
+    "totalBuying": 9221,
+    "totalSelling": 7155,
+    "buying": 461,
+    "selling": 464,
+    "margin": 3,
+    "percent": 0.6507592190889371
+  },
+  {
+    "id": 863,
+    "name": "Iron knife",
+    "totalBuying": 32702,
+    "totalSelling": 15618,
+    "buying": 53,
+    "selling": 56,
+    "margin": 3,
+    "percent": 5.660377358490567
+  },
+  {
+    "id": 563,
+    "name": "Law rune",
+    "totalBuying": 242272,
+    "totalSelling": 157527,
+    "buying": 222,
+    "selling": 225,
+    "margin": 3,
+    "percent": 1.3513513513513513
+  },
+  {
+    "id": 13502,
+    "name": "Ensouled demon head",
+    "totalBuying": 63,
+    "totalSelling": 206,
+    "buying": 6132,
+    "selling": 6134,
+    "margin": 2,
+    "percent": 0.03261578604044357
+  },
+  {
+    "id": 10147,
+    "name": "Red salamander",
+    "totalBuying": 1,
+    "totalSelling": 22,
+    "buying": 20,
+    "selling": 22,
+    "margin": 2,
+    "percent": 10
+  },
+  {
+    "id": 5341,
+    "name": "Rake",
+    "totalBuying": 2,
+    "totalSelling": 2,
+    "buying": 170,
+    "selling": 172,
+    "margin": 2,
+    "percent": 1.1764705882352942
+  },
+  {
+    "id": 2359,
+    "name": "Mithril bar",
+    "totalBuying": 31337,
+    "totalSelling": 37770,
+    "buying": 794,
+    "selling": 796,
+    "margin": 2,
+    "percent": 0.2518891687657431
+  },
+  {
+    "id": 2355,
+    "name": "Silver bar",
+    "totalBuying": 1009,
+    "totalSelling": 36,
+    "buying": 103,
+    "selling": 105,
+    "margin": 2,
+    "percent": 1.9417475728155338
+  },
+  {
+    "id": 2297,
+    "name": "Anchovy pizza",
+    "totalBuying": 15880,
+    "totalSelling": 1169,
+    "buying": 789,
+    "selling": 791,
+    "margin": 2,
+    "percent": 0.25348542458808615
+  },
+  {
+    "id": 1975,
+    "name": "Chocolate dust",
+    "totalBuying": 1124,
+    "totalSelling": 271,
+    "buying": 86,
+    "selling": 88,
+    "margin": 2,
+    "percent": 2.3255813953488373
+  },
+  {
+    "id": 1540,
+    "name": "Anti-dragon shield",
+    "totalBuying": 769,
+    "totalSelling": 195,
+    "buying": 85,
+    "selling": 87,
+    "margin": 2,
+    "percent": 2.3529411764705883
+  },
+  {
+    "id": 1521,
+    "name": "Oak logs",
+    "totalBuying": 64841,
+    "totalSelling": 22803,
+    "buying": 36,
+    "selling": 38,
+    "margin": 2,
+    "percent": 5.555555555555555
+  },
+  {
+    "id": 592,
+    "name": "Ashes",
+    "totalBuying": 10,
+    "totalSelling": 428,
+    "buying": 22,
+    "selling": 24,
+    "margin": 2,
+    "percent": 9.090909090909092
+  },
+  {
+    "id": 564,
+    "name": "Cosmic rune",
+    "totalBuying": 141716,
+    "totalSelling": 125517,
+    "buying": 116,
+    "selling": 118,
+    "margin": 2,
+    "percent": 1.7241379310344827
+  },
+  {
+    "id": 536,
+    "name": "Dragon bones",
+    "totalBuying": 37972,
+    "totalSelling": 48301,
+    "buying": 2657,
+    "selling": 2659,
+    "margin": 2,
+    "percent": 0.07527286413248024
+  },
+  {
+    "id": 383,
+    "name": "Raw shark",
+    "totalBuying": 45296,
+    "totalSelling": 27429,
+    "buying": 908,
+    "selling": 910,
+    "margin": 2,
+    "percent": 0.22026431718061676
+  },
+  {
+    "id": 109,
+    "name": "Dwarf weed potion (unf)",
+    "totalBuying": 13753,
+    "totalSelling": 10000,
+    "buying": 1199,
+    "selling": 1201,
+    "margin": 2,
+    "percent": 0.16680567139282734
+  },
+  {
+    "id": 21350,
+    "name": "Amethyst arrowtips",
+    "totalBuying": 40001,
+    "totalSelling": 2,
+    "buying": 268,
+    "selling": 269,
+    "margin": 1,
+    "percent": 0.3731343283582089
+  },
+  {
+    "id": 13439,
+    "name": "Raw anglerfish",
+    "totalBuying": 13022,
+    "totalSelling": 11320,
+    "buying": 1617,
+    "selling": 1618,
+    "margin": 1,
+    "percent": 0.06184291898577613
+  },
+  {
+    "id": 12625,
+    "name": "Stamina potion(4)",
+    "totalBuying": 6890,
+    "totalSelling": 10054,
+    "buying": 5454,
+    "selling": 5455,
+    "margin": 1,
+    "percent": 0.018335166850018333
+  },
+  {
+    "id": 10145,
+    "name": "Harralander tar",
+    "totalBuying": 5089,
+    "totalSelling": 53006,
+    "buying": 3,
+    "selling": 4,
+    "margin": 1,
+    "percent": 33.33333333333333
+  },
+  {
+    "id": 9075,
+    "name": "Astral rune",
+    "totalBuying": 163683,
+    "totalSelling": 181583,
+    "buying": 148,
+    "selling": 149,
+    "margin": 1,
+    "percent": 0.6756756756756757
+  },
+  {
+    "id": 6306,
+    "name": "Trading sticks",
+    "totalBuying": 146466,
+    "totalSelling": 18000,
+    "buying": 5,
+    "selling": 6,
+    "margin": 1,
+    "percent": 20
+  },
+  {
+    "id": 5285,
+    "name": "Orange tree seed",
+    "totalBuying": 230,
+    "totalSelling": 412,
+    "buying": 19,
+    "selling": 20,
+    "margin": 1,
+    "percent": 5.263157894736842
+  },
+  {
+    "id": 4696,
+    "name": "Dust rune",
+    "totalBuying": 17576,
+    "totalSelling": 67528,
+    "buying": 2,
+    "selling": 3,
+    "margin": 1,
+    "percent": 50
+  },
+  {
+    "id": 2572,
+    "name": "Ring of wealth",
+    "totalBuying": 227,
+    "totalSelling": 310,
+    "buying": 18012,
+    "selling": 18013,
+    "margin": 1,
+    "percent": 0.00555185431934266
+  },
+  {
+    "id": 1891,
+    "name": "Cake",
+    "totalBuying": 5134,
+    "totalSelling": 5192,
+    "buying": 277,
+    "selling": 278,
+    "margin": 1,
+    "percent": 0.36101083032490977
+  },
+  {
+    "id": 1777,
+    "name": "Bow string",
+    "totalBuying": 54361,
+    "totalSelling": 29173,
+    "buying": 146,
+    "selling": 147,
+    "margin": 1,
+    "percent": 0.684931506849315
+  },
+  {
+    "id": 1745,
+    "name": "Green dragon leather",
+    "totalBuying": 11876,
+    "totalSelling": 8282,
+    "buying": 1833,
+    "selling": 1834,
+    "margin": 1,
+    "percent": 0.05455537370430987
+  },
+  {
+    "id": 1131,
+    "name": "Hardleather body",
+    "totalBuying": 765,
+    "totalSelling": 702,
+    "buying": 10,
+    "selling": 11,
+    "margin": 1,
+    "percent": 10
+  },
+  {
+    "id": 1099,
+    "name": "Green d'hide chaps",
+    "totalBuying": 188,
+    "totalSelling": 690,
+    "buying": 2202,
+    "selling": 2203,
+    "margin": 1,
+    "percent": 0.045413260672116255
+  },
+  {
+    "id": 822,
+    "name": "Mithril dart tip",
+    "totalBuying": 234482,
+    "totalSelling": 230162,
+    "buying": 88,
+    "selling": 89,
+    "margin": 1,
+    "percent": 1.1363636363636365
+  },
+  {
+    "id": 808,
+    "name": "Steel dart",
+    "totalBuying": 19085,
+    "totalSelling": 44422,
+    "buying": 19,
+    "selling": 20,
+    "margin": 1,
+    "percent": 5.263157894736842
+  },
+  {
+    "id": 444,
+    "name": "Gold ore",
+    "totalBuying": 130447,
+    "totalSelling": 61131,
+    "buying": 351,
+    "selling": 352,
+    "margin": 1,
+    "percent": 0.2849002849002849
+  },
+  {
+    "id": 361,
+    "name": "Tuna",
+    "totalBuying": 9767,
+    "totalSelling": 24183,
+    "buying": 75,
+    "selling": 76,
+    "margin": 1,
+    "percent": 1.3333333333333335
+  },
+  {
+    "id": 229,
+    "name": "Vial",
+    "totalBuying": 15357,
+    "totalSelling": 8544,
+    "buying": 2,
+    "selling": 3,
+    "margin": 1,
+    "percent": 50
+  },
+  {
+    "id": 203,
+    "name": "Grimy tarromin",
+    "totalBuying": 3357,
+    "totalSelling": 3608,
+    "buying": 137,
+    "selling": 138,
+    "margin": 1,
+    "percent": 0.7299270072992701
+  },
+  {
+    "id": 53,
+    "name": "Headless arrow",
+    "totalBuying": 74663,
+    "totalSelling": 108960,
+    "buying": 5,
+    "selling": 6,
+    "margin": 1,
+    "percent": 20
+  }
+]
