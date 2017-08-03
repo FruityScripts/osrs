@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require('path');
 const moment = require('moment');
 const _ = require('lodash');
+const { MongoClient, ObjectID } = require("mongodb");
 
 const PastebinAPI = require('pastebin-js');
 const pastebin = new PastebinAPI({
@@ -20,7 +21,34 @@ const tweeter = new Twitter({
   access_token_secret: 'fpFyfMijkBRR3XHMX73nybxLCnE0vE558k03A6IsP07RD'
 });
 
-test(true);
+// test(true);
+
+
+function updateDatabase() {
+  osrsge.summary().then((result) => {
+    var keys = Object.keys(result);
+    keys.forEach((key) => {
+      var item = result[key];
+      MongoClient.connect("mongodb://localhost:27017/TodoApp", (error, db) => {
+      if (error) {
+        return console.log("Unable to connect to MongoDB server");
+      }
+
+      console.log("Connected to MongoDB Server");
+
+      db.collection("Users").insertOne(entry, (error, result) => {
+        if (error) {
+          return console.log("Unable to add user to table", error);
+        }
+         console.log(JSON.stringify(result.ops));
+      });
+
+       db.close();
+
+      });
+    }
+  }
+}
 
 function test(initial) {
   osrsge.summary().then((result) => {
@@ -96,6 +124,10 @@ function sort(data) {
   });
 }
 
+function updateDatabase(data) {
+
+}
+
 function tweet(paste) {
   console.log("Paste: " + paste);
   var tweet = "OSRS Margins: " + paste;
@@ -105,6 +137,13 @@ function tweet(paste) {
 function paste(data) {
   var timestamp = moment().format('MMMM Do YYYY - hh.mm.ssa');
   var path = `osrs-ge/dumps/${timestamp}.txt`;
+
+
+
   fs.writeFileSync(path, JSON.stringify(data, undefined, 2));
   return pastebin.createPasteFromFile(path, `@OSRSMargins - ${ timestamp }`, "json", 3, "N");
+}
+
+module.exports = {
+  test
 }
