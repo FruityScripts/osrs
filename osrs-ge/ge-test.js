@@ -22,7 +22,7 @@ const tweeter = new Twitter({
   access_token_secret: 'fpFyfMijkBRR3XHMX73nybxLCnE0vE558k03A6IsP07RD'
 });
 
-test(true);
+// test(true);
 
 function test(initial) {
   osrsge.summary().then((result) => {
