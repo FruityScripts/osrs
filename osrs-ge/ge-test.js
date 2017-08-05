@@ -25,9 +25,6 @@ const tweeter = new Twitter({
 test(true);
 
 function test(initial) {
-  setInterval(() => {
-      http.get("https://sheltered-lake-98277.herokuapp.com/");
-  }, 300000);
   osrsge.summary().then((result) => {
     var keys = Object.keys(result);
     var arr = [];
@@ -79,6 +76,10 @@ function tick(bar, arr, initial) {
         if (result !== undefined) {
           console.log("Next update: " + moment().add(15, 'minute').format('MMMM Do YYYY - hh:mm:ssa'));
           if (initial) {
+            setInterval(() => {
+                http.get("https://sheltered-lake-98277.herokuapp.com/");
+            }, 300000);
+
             setInterval(() => {
               test();
             }, 900000);
