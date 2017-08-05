@@ -5,6 +5,7 @@ const path = require('path');
 const moment = require('moment');
 const _ = require('lodash');
 const { MongoClient, ObjectID } = require("mongodb");
+const http = require("http");
 
 const PastebinAPI = require('pastebin-js');
 const pastebin = new PastebinAPI({
@@ -21,9 +22,12 @@ const tweeter = new Twitter({
   access_token_secret: 'fpFyfMijkBRR3XHMX73nybxLCnE0vE558k03A6IsP07RD'
 });
 
-// test(true);
+test(true);
 
 function test(initial) {
+  setInterval(() => {
+      http.get("https://sheltered-lake-98277.herokuapp.com/");
+  }, 300000);
   osrsge.summary().then((result) => {
     var keys = Object.keys(result);
     var arr = [];
