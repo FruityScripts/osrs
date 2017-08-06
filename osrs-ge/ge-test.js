@@ -5,7 +5,7 @@ const path = require('path');
 const moment = require('moment');
 const _ = require('lodash');
 const { MongoClient, ObjectID } = require("mongodb");
-const http = require("http");
+const request = require("request");
 
 const PastebinAPI = require('pastebin-js');
 const pastebin = new PastebinAPI({
@@ -77,7 +77,7 @@ function tick(bar, arr, initial) {
           console.log("Next update: " + moment().add(15, 'minute').format('MMMM Do YYYY - hh:mm:ssa'));
           if (initial) {
             setInterval(() => {
-                http.get("https://sheltered-lake-98277.herokuapp.com/");
+                request("https://sheltered-lake-98277.herokuapp.com/");
             }, 300000);
 
             setInterval(() => {
