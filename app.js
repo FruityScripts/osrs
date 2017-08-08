@@ -20,5 +20,5 @@ var app = express();
 
     app.listen(port, () => {
       console.log(`Starting server on port ${ port }`);
-      // geTest.monitor(true);
+      geTest.monitor(true);
     });
