@@ -130,7 +130,7 @@ function tweet(paste, highest) {
     tweet = tweet + `#1 - ${ highest.name } - Buy: ${ buy } - Sell: ${ sell } - Margin: ${ margin } (${ percent.toFixed(2) }%) \n`
   }
 
-  tweet = tweet + "OSRS Margins: " + paste;
+  tweet = tweet + "Full List: " + paste + "\n #OSRSMargins";
   return tweeter.post('statuses/update', {status: tweet});
 }
 
