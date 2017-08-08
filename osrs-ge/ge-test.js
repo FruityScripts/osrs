@@ -1,10 +1,11 @@
 const osrsge = require("./osrs-ge.js");
+const database = require("./../database/database.js");
+
 const ProgressBar = require('progress');
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require('path');
 const moment = require('moment');
 const _ = require('lodash');
-const { MongoClient, ObjectID } = require("mongodb");
 const request = require("request");
 
 const PastebinAPI = require('pastebin-js');
@@ -22,9 +23,9 @@ const tweeter = new Twitter({
   access_token_secret: 'fpFyfMijkBRR3XHMX73nybxLCnE0vE558k03A6IsP07RD'
 });
 
-// test(true);
+monitor(false);
 
-function test(initial) {
+function monitor(initial) {
   osrsge.summary().then((result) => {
     var keys = Object.keys(result);
     var arr = [];
@@ -51,9 +52,13 @@ function test(initial) {
           return osrsge.margin(formatted);
         }).then((result) => {
           arr.push(result);
-          tick(bar, arr, initial);
+          tick(bar, arr, initial).catch((error) => {
+            console.log(error);
+          });;
         }).catch((error) => {
-          tick(bar, arr, initial);
+          tick(bar, arr, initial).catch((error) => {
+            console.log(error);
+          });
           console.log(error);
         });
       }, 50 * count);
@@ -68,20 +73,26 @@ function tick(bar, arr, initial) {
   return new Promise((resolve, reject) => {
     bar.tick();
     if (bar.complete) {
+      var highest = [];
       sort(arr).then((result) => {
-        return paste(result);
+        highest = result.best;
+        return updateDatabase(result.data);
       }).then((result) => {
-        return tweet(result);
+          return save(result.dump);
+      }).then((result) => {
+        return paste(result.path, result.timestamp);
+      }).then((result) => {
+        return tweet(result, highest);
       }).then((result) => {
         if (result !== undefined) {
-          console.log("Next update: " + moment().add(15, 'minute').format('MMMM Do YYYY - hh:mm:ssa'));
           if (initial) {
+            console.log("Next update: " + moment().add(15, 'minute').format('MMMM Do YYYY - hh:mm:ssa'));
             setInterval(() => {
                 request("https://sheltered-lake-98277.herokuapp.com/");
             }, 300000);
 
             setInterval(() => {
-              test();
+              monitor();
             }, 900000);
           }
         }
@@ -98,30 +109,56 @@ function sort(data) {
       return item.margin !== undefined && item.margin > 0;
     });
     data = _.reverse(_.sortBy(data, "margin"));
-    resolve(data);
+    var best = data.slice(0, 1);
+    resolve({
+      data,
+      best
+    });
   });
 }
 
-function updateDatabase(data) {
-
+function updateDatabase(dump) {
+  return database.update(dump);
 }
 
-function tweet(paste) {
-  console.log("Paste: " + paste);
-  var tweet = "OSRS Margins: " + paste;
+function tweet(paste, highest) {
+  var tweet = "";
+  if (highest !== undefined) {
+    highest = highest[0];
+    var buy = numberWithCommas(highest.buying);
+    var sell = numberWithCommas(highest.selling);
+    var margin = numberWithCommas(highest.margin);
+    var percent = highest.percent;
+    tweet = tweet + `#1 - ${ highest.name } - Buy: ${ buy } - Sell: ${ sell } - Margin: ${ margin } (${ percent.toFixed(2) }%) \n`
+  }
+
+  tweet = tweet + "OSRS Margins: " + paste;
   return tweeter.post('statuses/update', {status: tweet});
 }
 
-function paste(data) {
-  var timestamp = moment().format('MMMM Do YYYY - hh.mm.ssa');
-  var path = `osrs-ge/dumps/${timestamp}.txt`;
+function save(data) {
+    var timestamp = moment().format('MMMM Do YYYY - hh.mm.ssa');
+    var path = `osrs-ge/dumps/${timestamp}.json`;
 
+    return new Promise((resolve, reject) => {
+      fs.writeJson(path, data, { spaces : '\t' }).then((result) => {
+        resolve({path, timestamp});
+      }).catch((error) => {
+        reject(error);
+      });
+    });
 
+}
 
-  fs.writeFileSync(path, JSON.stringify(data, undefined, 2));
+function paste(path, timestamp) {
   return pastebin.createPasteFromFile(path, `@OSRSMargins - ${ timestamp }`, "json", 3, "N");
 }
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+
 module.exports = {
-  test
+  monitor
 }

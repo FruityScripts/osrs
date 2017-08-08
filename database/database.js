@@ -2,35 +2,39 @@ const url = "mongodb://heroku_7dl5lkqv:ukou49hgjq420huiga2stqspc5@ds157258.mlab.
 const db = "items";
 
 const mongoose = require("mongoose");
-      mongoose.connect(url);
+      mongoose.connect(url, { useMongoClient: true });
+      mongoose.Promise = global.Promise;
+
+const dumpSchema = mongoose.Schema({
+
+  timestamp : {
+    type : Number,
+    required : true,
+    default : Date.now()
+  },
+
+  dump : {
+    type : Object,
+    required : true
+  }
+
+});
+
+const Dump = mongoose.model('Dump', dumpSchema);
 
 var get = (options) => {
-
+  options = !options ? {} : options;
+  return Dump.find(options);
 }
 
 var update = (entry) => {
-  MongoClient.connect(url, (error, db) => {
-  if (error) {
-    return console.log("Unable to connect to MongoDB server");
-  }
-
-  console.log("Connected to MongoDB Server");
-
-  db.collection(db).update({
-    "name" : entry.name
-  }, entry, (error, result) => {
-    if (error) {
-      return console.log("Unable to add user to table", error);
-    }
-     console.log(JSON.stringify(result.ops));
+  var dump = new Dump({
+    dump : entry
   });
-
-  db.close();
-
-  });
-
+  return dump.save();
 }
 
 module.exports = {
-  get
+  get,
+  update
 }
