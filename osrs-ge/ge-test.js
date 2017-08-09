@@ -80,8 +80,6 @@ function tick(bar, arr, initial) {
       }).then((result) => {
         return paste(result.path, result.timestamp);
       }).then((result) => {
-        return tweet(result, highest);
-      }).then((result) => {
         if (result !== undefined) {
           if (initial) {
             console.log("Next update: " + moment().add(15, 'minute').format('MMMM Do YYYY - hh:mm:ssa'));

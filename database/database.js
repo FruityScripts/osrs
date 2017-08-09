@@ -1,5 +1,6 @@
 const url = "mongodb://heroku_7dl5lkqv:ukou49hgjq420huiga2stqspc5@ds157258.mlab.com:57258/heroku_7dl5lkqv";
 const db = "items";
+const moment = require('moment');
 
 const mongoose = require("mongoose");
       mongoose.connect(url, { useMongoClient: true });
@@ -10,7 +11,7 @@ const dumpSchema = mongoose.Schema({
   timestamp : {
     type : Number,
     required : true,
-    default : Date.now()
+    default : moment()
   },
 
   dump : {
@@ -24,14 +25,21 @@ const Dump = mongoose.model('Dump', dumpSchema);
 
 var get = (options) => {
   options = !options ? {} : options;
-  return Dump.find(options);
+  return Dump.findOne(options);
 }
 
 var update = (entry) => {
   var dump = new Dump({
     dump : entry
   });
-  return dump.save();
+  return dump.save().then((result) => {
+    console.log("Saved dump to db");
+    return new Promise((resolve, reject) => {
+      resolve(entry);
+    })
+  }).catch((error) => {
+    console.log("Error saving dump to db");
+  });
 }
 
 module.exports = {

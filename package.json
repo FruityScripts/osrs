@@ -12,9 +12,14 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "cloudscraper": "^1.4.1",
+    "ejs": "^2.5.7",
     "express": "^4.15.3",
     "fs": "0.0.1-security",
     "fs-extra": "^4.0.1",
+    "hbs": "^4.0.1",
+    "humanize-duration": "^3.10.1",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.1.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "mongodb": "^2.2.30",
@@ -23,7 +28,9 @@
     "progress": "^2.0.0",
     "promdash": "^1.2.0",
     "prompt": "^1.0.0",
+    "pug": "^2.0.0-rc.3",
     "request": "^2.81.0",
+    "tablesort": "^5.0.1",
     "twitter": "^1.7.1"
   }
 }
