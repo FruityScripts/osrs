@@ -23,9 +23,83 @@ const dumpSchema = mongoose.Schema({
 
 const Dump = mongoose.model('Dump', dumpSchema);
 
+const itemSchema = mongoose.Schema({
+  id: {
+    type : Number,
+    required : true
+  },
+
+  name: {
+    type : String,
+    required : true
+  },
+
+  percent : {
+    type : Number,
+    default : 0,
+  },
+
+  margin : {
+    type : Number,
+    default : 0,
+  },
+
+  selling : {
+    type : Number,
+    default : 0,
+  },
+
+  buying : {
+    type : Number,
+    default : 0,
+  },
+
+  totalSelling : {
+    type : Number,
+    default : 0,
+  },
+
+  totalBuying : {
+    type : Number,
+    default : 0,
+  },
+
+}, {
+  timestamps: true
+});
+
+const Item = mongoose.model("Item", itemSchema);
+
 var get = (options) => {
   options = !options ? {} : options;
   return Dump.findOne(options, {}, { sort: { 'timestamp' : -1 } });
+}
+
+var insert = (item) => {
+  if (item !== undefined) {
+    return Item.update({name: item.name}, item, {
+      upsert: true,
+    });
+  }
+}
+
+var dump = (data) => {
+  return new Promise((resolve, reject) => {
+    if (data !== undefined) {
+      for (var i = 0; i < data.length; i++) {
+        var item = data[i];
+        insert(item).then((result) => {
+          if (i === data.length - 1) {
+            resolve(data);
+          }
+        }).catch(() => {
+          reject("Error uploading item to database");
+        });
+      }
+    } else {
+      reject("Data provided is not valid");
+    }
+  });
 }
 
 var update = (entry) => {
@@ -44,5 +118,7 @@ var update = (entry) => {
 
 module.exports = {
   get,
-  update
+  update,
+  dump,
+  insert,
 }

@@ -72,11 +72,10 @@ function tick(bar, arr, initial) {
     bar.tick();
     if (bar.complete) {
       var highest = [];
-      sort(arr).then((result) => {
-        highest = result.best;
-        return updateDatabase(result.data);
+      updateDatabase(arr).then((result) => {
+        return database.dump(result);
       }).then((result) => {
-          return save(result.dump);
+        return save(result.dump);
       }).then((result) => {
         return paste(result.path, result.timestamp);
       }).then((result) => {
@@ -99,19 +98,19 @@ function tick(bar, arr, initial) {
   });
 }
 
-function sort(data) {
-  return new Promise((resolve, reject) => {
-    data = _.filter(data, (item) => {
-      return item.margin !== undefined && item.margin > 0;
-    });
-    data = _.reverse(_.sortBy(data, "margin"));
-    var best = data.slice(0, 1);
-    resolve({
-      data,
-      best
-    });
-  });
-}
+// function sort(data) {
+//   return new Promise((resolve, reject) => {
+//     data = _.filter(data, (item) => {
+//       return item.margin !== undefined && item.margin > 0;
+//     });
+//     data = _.reverse(_.sortBy(data, "margin"));
+//     var best = data.slice(0, 1);
+//     resolve({
+//       data,
+//       best
+//     });
+//   });
+// }
 
 function updateDatabase(dump) {
   return database.update(dump);
