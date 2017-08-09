@@ -1,0 +1,74 @@
+.panel-default > .panel-heading {
+  background:#37434d;
+}
+
+.panel.panel-default {
+  border-radius:0;
+}
+
+.table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+  text-align:center;
+  vertical-align:middle;
+}
+
+.table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
+  max-height:50px;
+}
+
+.form-control:focus {
+  box-shadow:none;
+}
+
+tr, th {
+  text-align : center;
+}
+
+.table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
+  text-align:center;
+  vertical-align:middle;
+}
+
+td img {
+  max-height:34px;
+  max-width:34px;
+}
+
+.img-cell {
+  width:50px;
+  max-height:50px;
+  max-width:50px;
+}
+
+.results tr[visible='false'], .no-result {
+  display:none;
+}
+
+.results tr[visible='true'] {
+  display:table-row;
+}
+
+.fs-control {
+  box-shadow:none;
+}
+
+.container.fs-container {
+  margin-top:30px;
+}
+
+.panel-title {
+  color:white;
+  text-align:center;
+}
+
+.search.fs-control {
+  text-align:center;
+  font-weight:500;
+  font-size:18px;
+  color:#77b710;
+}
+
+tr:hover {
+  color:#77b710;
+  font-size:14px;
+  font-weight:800;
+}
