@@ -25,7 +25,7 @@ const Dump = mongoose.model('Dump', dumpSchema);
 
 var get = (options) => {
   options = !options ? {} : options;
-  return Dump.findOne(options);
+  return Dump.findOne(options, {}, { sort: { 'timestamp' : -1 } });
 }
 
 var update = (entry) => {
