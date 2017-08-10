@@ -1,24 +1,37 @@
 const cloudscraper = require('cloudscraper');
 const ProgressBar = require('progress');
 
-var guidePrice = (id, obj) => {
+var guidePrice = (item) => {
   return new Promise((resolve, reject) => {
-    const guidePrice = `https://api.rsbuddy.com/grandExchange?a=guidePrice&i=${ id }`;
-    cloudscraper.request(
-      {
-        method: 'GET',
-        url: guidePrice,
-        timeout: 120000,
-        headers:{
-          'Connection': 'keep-alive'
-        }
-      }, (err, response, body) => {
-          if (err) {
-            reject(err);
-          } else {
-            resolve({body:JSON.parse(body), obj: obj});
+    if (item.id !== undefined) {
+      const guidePrice = `https://api.rsbuddy.com/grandExchange?a=guidePrice&i=${ item.id }`;
+      cloudscraper.request(
+        {
+          method: 'GET',
+          url: guidePrice,
+          timeout: 120000,
+          headers:{
+            'Connection': 'keep-alive'
           }
-      });
+        }, (err, response, body) => {
+            if (err) {
+              reject(err);
+            } else {
+              try {
+                var json = JSON.parse(body);
+                item.buying = json.buying;
+                item.selling = json.selling;
+                item.buyTotal = json.buyTotal;
+                item.sellTotal = json.sellTotal;
+                resolve(item);
+              } catch (e) {
+                reject(`Unexpected response from OSBuddy on item ID: ${ item.id } `, e);
+              }
+            }
+        });
+      } else {
+        reject("No item provided.");
+      }
   });
 }
 

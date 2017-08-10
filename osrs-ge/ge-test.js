@@ -29,7 +29,7 @@ function monitor(initial) {
     var arr = [];
     var count = 0;
 
-    var bar = new ProgressBar('Scraping Prices [:bar] :rate/bps :percent :current/:total', {
+    var bar = new ProgressBar('Scraping Prices [:bar] :elapsed :percent :current/:total', {
        complete: '=',
        incomplete: '-',
        total: keys.length
@@ -59,7 +59,7 @@ function monitor(initial) {
           });
           console.log(error);
         });
-      }, 50 * count);
+      }, 100 * count);
 
     });
   }).catch((error) => {
@@ -81,14 +81,11 @@ function tick(bar, arr, initial) {
       }).then((result) => {
         if (result !== undefined) {
           if (initial) {
-            console.log("Next update: " + moment().add(15, 'minute').format('MMMM Do YYYY - hh:mm:ssa'));
+            console.log("Next update: " + moment().add(10, 'minute').format('MMMM Do YYYY - hh:mm:ssa'));
             setInterval(() => {
                 request("https://sheltered-lake-98277.herokuapp.com/");
+                monitor();
             }, 300000);
-
-            setInterval(() => {
-              monitor();
-            }, 900000);
           }
         }
       }).catch((error) => {
