@@ -71,8 +71,6 @@ var app = express();
     app.get("/item", (req, res, err) => {
       var findOptions = {};
       var query = req.query;
-      if (query.name !== undefined) findOptions.name = query.name;
-      if (query.id !== undefined) findOptions.id = query.id;
       if (query.members !== undefined) findOptions.members = query.members;
       database.getAllItems(findOptions).then((result) => {
         res.send(result);
