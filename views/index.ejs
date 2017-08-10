@@ -51,24 +51,24 @@
                                 <thead>
                                     <tr>
                                       <!-- icon ion-ribbon-b -->
-                                        <th></th>
+                                        <th class="hidden-xs"></th>
                                         <th></th>
                                         <th class="hidden-xs hidden-sm">Name</th>
                                         <th>Buy</th>
                                         <th>Sell</th>
-                                        <th class="hidden-xs">Margin</th>
+                                        <th>Margin</th>
                                         <th class="hidden-xs">%</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                   <% for(var i=0; i < data.length; i++) {%>
                                     <tr>
-                                        <td class="img-cell"><span class="<%- getMembersIcon(data[i]) %>" style = "color:rgb(204, 185, 91)"></span></td>
+                                        <td class="hidden-xs img-cell"><span class="<%- getMembersIcon(data[i]) %>" style = "color:rgb(204, 185, 91)"></span></td>
                                         <td class="img-cell"> <img src="https://rsbuddy.com/items/<%=data[i].id %>.png"></td>
                                         <td class="hidden-xs hidden-sm"><%= data[i].name %></td>
                                         <td><%- addCommas(data[i].buying) %></td>
                                         <td><%- addCommas(data[i].selling) %></td>
-                                        <td class="hidden-xs%>" style="color:<%- getMarginColour(data[i].margin) %>"><%- addCommas(data[i].margin) %></td>
+                                        <td style="color:<%- getMarginColour(data[i].margin) %>"><%- addCommas(data[i].margin) %></td>
                                         <td class="hidden-xs"><%- addCommas(data[i].percent.toFixed(2)) %></td>
                                     </tr>
                                   <% } %>
