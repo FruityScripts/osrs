@@ -7,8 +7,8 @@ const mongoose = require("mongoose");
       mongoose.connect(url, { useMongoClient: true });
       mongoose.Promise = global.Promise;
 
-const { Item } = require("./item/item");
-const { Dump } = require("./dump/dump");
+const { Item } = require(__dirname + "/item/item");
+const { Dump } = require(__dirname + "/dump/dump");
 
 var getLatestDump = (options) => {
   options = !options ? {} : options;
