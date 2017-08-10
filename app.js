@@ -45,11 +45,14 @@ var app = express();
     app.set('view engine', 'ejs');
 
     app.get("/", (req, res, err) => {
-      database.getLatestDump().then((result) => {
+      database.getAllItems({
+        buying: { $gt: 0 },
+        selling: { $gt: 0 }  
+      }).then((result) => {
         if (result !== null) {
-          var diff = moment().diff(moment(result.timestamp));
+          var diff = moment().diff(moment(result[0].updatedAt));
           res.render("index.ejs", {
-            data : result.dump,
+            data : result,
             ago : humanizeDuration(diff, {
               round: true,
               units: ['h', 'm']
@@ -98,6 +101,6 @@ var app = express();
 
     app.listen(port, () => {
       console.log(`Starting server on port ${ port }`);
-      monitor.monitor(true);
+      monitor.start();
       // monitor.summary();
     });

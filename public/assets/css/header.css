@@ -62,7 +62,10 @@ img {
 }
 
 .navigation-clean.navbar-default .navbar-nav > .active > a, .navigation-clean.navbar-default .navbar-nav > .active > a:focus, .navigation-clean.navbar-default .navbar-nav > .active > a:hover {
-  color:#77B710;
+  /*color:#77B710;*/
+  color:white;
+  font-weight: 800;
+  letter-spacing: 2px;
   box-shadow:none;
   background:none;
   pointer-events:none;
@@ -114,4 +117,3 @@ img {
   background:#eee;
   color:inherit;
 }
-

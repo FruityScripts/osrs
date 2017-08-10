@@ -3,7 +3,6 @@ $(document).ready(function() {
     "searching": false,
     "paging" : false,
     "info" : false,
-    "order": [[ 5, "desc" ]]
   });
 
   $('.results').DataTable();

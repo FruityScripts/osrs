@@ -27,7 +27,7 @@ var getItem = (options) => {
 
 var getAllItems = (options) => {
   options = !options ? {} : options;
-  return Item.find(options, {}, { sort: { 'timestamp' : -1 } });
+  return Item.find(options, {}, { sort: { 'margin' : -1 } });
 }
 
 var insertItem = (item) => {

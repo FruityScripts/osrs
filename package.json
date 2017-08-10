@@ -20,6 +20,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "mongoose": "^4.11.5",
+    "node-schedule": "^1.2.3",
     "pastebin-js": "^0.4.0",
     "progress": "^2.0.0",
     "request": "^2.81.0",
