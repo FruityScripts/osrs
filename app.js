@@ -47,7 +47,7 @@ var app = express();
     app.get("/", (req, res, err) => {
       database.getAllItems({
         buying: { $gt: 0 },
-        selling: { $gt: 0 }  
+        selling: { $gt: 0 }
       }).then((result) => {
         if (result !== null) {
           var diff = moment().diff(moment(result[0].updatedAt));
@@ -97,6 +97,23 @@ var app = express();
       }).catch((error) => {
         res.send("Unable to find item.");
       })
+    });
+
+    app.get("/item/limit/:id/:limit", (req, res, err) => {
+      var id = req.params.id;
+      var limit = req.params.limit;
+      if (id !== undefined && limit !== undefined) {
+        database.getItem({ id }).then((result) => {
+          result.limit = limit;
+          return database.insertItem(result);
+        }).then((result) => {
+          res.redirect("/");
+        }).catch((error) => {
+          res.send("Unable to update item.");
+        });
+      } else {
+        res.send("Unable to update item.");
+      }
     });
 
     app.listen(port, () => {

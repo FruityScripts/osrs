@@ -46,6 +46,11 @@ const itemSchema = mongoose.Schema({
     default : 0,
   },
 
+  limit : {
+    type : Number,
+    default : -1
+  }
+
 }, {
   timestamps: true
 });
